@@ -286,7 +286,7 @@ li{
 	clear: both;
 }
 .user .profile{
-	width: 50%;
+	width: 40%;
 	float: left;
 }
 .user .profile img{
@@ -303,7 +303,7 @@ li{
 	margin-left: 10px;
 }
 .user .user-icon{
-	width: 50%;
+	width: 60%;
 	float: left;
 }
 .user .user-icon ul{
@@ -425,114 +425,6 @@ li{
 }
 
 
-
-/*@media queries@*/
-@media all and ( max-width: 1111px ){
-	.feature-content .col-4{
-		width: 40%;
-		text-align: center;
-		float: none;
-		margin: auto;
-	}
-	.feature-content{
-		text-align: center;
-	}
-}
-@media all and ( max-width: 1080px ){
-	.menu-toggle{
-		text-align: left;
-		width: 10%;
-		float: left;
-	}
-.menu-toggle:before{
-	content: ' \f0c9';
-	font-family: fontAwesome;
-	line-height: 40px;
-
-	}
-.menu-toggle.active:before{
-	content: ' \f00d';
-	font-family: fontAwesome;
-	line-height: 40px;
-
-	}
-	.menu{
-		display: none;
-	}
-	.menu.active{
-		display: block;
-	}
-	.menu.active ul li{
-		display: block;
-		width: 100%;
-	}
-	.menu.active ul li a{
-		display: block;
-	}
-	.logo-menu{
-		width: 50%;
-	}
-	.buttons{
-		width: 40%;
-		float: left;
-	}
-	.menu.active ul li.pike{
-		display: none;
-	}
-}
-@media all and ( max-width: 480px ){
-	.header .logo-menu .logo img{
-		width: 80px;
-		margin-left: 10px;
-	}
-	.buttons{
-		display: none;
-	}
-	.footer .col-6{
-		width: 80%;
-		float: none;
-		margin-bottom: 20px;
-		text-align: left;
-	}
-}
-@media all and ( max-width: 768px ){
-	.banner .container .banner-content h1{
-		font-size: 30px;
-	}
-}
-@media all and ( max-width: 768px ){
-	.banner .container .banner-content h1{
-		width: 100%;
-		text-align: center;
-	}
-	.banner .container .banner-content p{
-		text-align: center;
-		width: 100%;
-	}
-	.banner-content{
-		text-align: center;
-	}
-}
-@media all and ( max-width: 960px ){
-	.feature-top .feature-select{
-		width: 100%;
-		float: none;
-		text-align: center;
-	}
-	.feature-top .feature-menu{
-		width: 100%;
-		float: none;
-	}
-	.feature-top .feature-filter{
-		width: 100%;
-		float: none;
-		text-align: center;
-		margin-left: 0;
-	}
-	.footer .col-6{
-		width: 45%;
-	}
-}
 
 
 
